@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News App"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/my_primary"
+            android:layout_marginStart="20dp"
+            android:id="@+id/app_title" />
+        <Spinner
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:id="@+id/spinner"
+             />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin= "4dp"
+        android:id = "@+id/horizontal_buttons">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+          <androidx.appcompat.widget.SearchView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              app:queryHint="Search news"
+              android:layout_gravity="center"
+              android:id="@+id/search_view"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/btn_1"
+                android:layout_margin= "6dp"
+                android:text="@string/gen"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/btn_2"
+                android:layout_margin= "6dp"
+                android:text="@string/bus"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/btn_3"
+                android:layout_margin= "6dp"
+                android:text="@string/spo"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/btn_4"
+                android:layout_margin= "6dp"
+                android:text="@string/tech"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/btn_5"
+                android:layout_margin= "6dp"
+                android:text="@string/hel"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/btn_6"
+                android:layout_margin= "6dp"
+                android:text="@string/ent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id = "@+id/btn_7"
+                android:layout_margin= "6dp"
+                android:text="@string/sci"/>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:indeterminate="true"
+    android:id="@+id/progress_bar"/>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/news_recycler_view"/>
+
+</LinearLayout>

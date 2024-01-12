@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">News App</string>
+    <string name="gen">መዝናኛ</string>
+    <string name="bus">ስራ</string>
+    <string name="spo">ስራ</string>
+    <string name="hel">ጤና</string>
+    <string name="sci">ሳይንስ</string>
+    <string name="tech">ቴክኖሎጂ</string>
+    <string name="ent">መዝናኛ</string>
+</resources>

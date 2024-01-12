@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="gen">General</string>
+    <string name="bus">Business</string>
+    <string name="spo">Sport</string>
+    <string name="hel">Health</string>
+    <string name="sci">Science</string>
+    <string name="tech">Technology</string>
+    <string name="ent">Entertainment</string>
+    <string-array name="language_options">
+        <item>Select Language</item>
+        <item>Amharic</item>
+        <item>Afaan Oromoo</item>
+    </string-array>
+
+</resources>

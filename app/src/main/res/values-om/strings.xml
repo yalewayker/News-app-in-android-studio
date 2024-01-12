@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">News App</string>
+    <string name="gen">Oduu Ijoo</string>
+    <string name="bus">Hojii</string>
+    <string name="spo">Ispoortii</string>
+    <string name="hel">Fayyaa</string>
+    <string name="sci">Saayinsii</string>
+    <string name="tech">Teekinoloojii</string>
+    <string name="ent">Bohaartii</string>
+
+</resources>
